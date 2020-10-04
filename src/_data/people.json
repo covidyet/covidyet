@@ -5,6 +5,11 @@
       "testDate": "2020-10-01"
     },
     {
+      "name": "First Lady Melania Trump",
+      "status": "positive",
+      "testDate": "2020-10-01"
+    },
+    {
       "name": "Vice President Michael Pence",
       "status": "negative",
       "testDate": "2020-10-03"
@@ -56,6 +61,21 @@
     },
     {
       "name": "Gov. Chris Christie",
+      "status": "positive",
+      "testDate": "2020-10-03"
+    },
+    {
+      "name": "White House Correspondant 1",
+      "status": "positive",
+      "testDate": "2020-10-02"
+    },
+    {
+      "name": "White House Correspondant 2",
+      "status": "positive",
+      "testDate": "2020-10-03"
+    },
+    {
+      "name": "White House Correspondant 3",
       "status": "positive",
       "testDate": "2020-10-03"
     }
