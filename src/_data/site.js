@@ -5,7 +5,7 @@ module.exports = {
   "author": "Brendan O'Leary",
   "meta_data": {
     "twitter": "@olearycrew",
-    "default_social_image": "/static/default_social_image.jpg"
+    "default_social_image": "/static/default_social_image.png"
   },
   "env": process.env.ELEVENTY_ENV === 'production'
 }
