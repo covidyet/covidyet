@@ -93,5 +93,10 @@
       "name": "Stephen Miller",
       "status": "negative",
       "testDate": "UNK"
+    },
+    {
+      "name": "Nick Luna",
+      "status": "positive",
+      "testDate": "UNK"
     }
   ]
