@@ -17,7 +17,18 @@ title: Make COVID Great Again
     <ul class="my-4">
         {% for item in people %}
             <li class="my-2">
-                {{item.name}}
+            <div class="flex">
+                <div class="w-1/5 h-12 text-center">
+                    {% if item.status == "positive" %}
+                      YES
+                    {% else %}
+                      NO
+                    {% endif %}
+                </div>
+                <div class="w-4/5 h-12">
+                    {{ item.name }}
+                </div>
+            </div>
             </li>
         {% endfor %}
     </ul>
