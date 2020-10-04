@@ -78,5 +78,20 @@
       "name": "White House Correspondant 3",
       "status": "positive",
       "testDate": "2020-10-03"
+    },
+    {
+      "name": "Jason Miller",
+      "status": "negative",
+      "testDate": "UNK"
+    },
+    {
+      "name": "Rudy Giuliani",
+      "status": "negative",
+      "testDate": "UNK"
+    },
+    {
+      "name": "Stephen Miller",
+      "status": "negative",
+      "testDate": "UNK"
     }
   ]
