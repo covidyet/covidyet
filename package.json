@@ -1,7 +1,7 @@
 {
-	"name": "jamstack-web-starter",
-	"version": "1.6.0",
-	"description": "Minimal boilerplate for new projects built with Eleventy, Tailwind, PurgeCSS and PostCSS",
+	"name": "covid-yet",
+	"version": "0.0.1",
+	"description": "White House contact tracing",
 	"scripts": {
 		"clean": "del dist",
 		"dev:postcss": "postcss src/_assets/stylesheets/*.css -o src/static/app.compiled.css --watch --verbose",

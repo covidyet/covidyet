@@ -1,0 +1,62 @@
+[
+    {
+      "name": "President Donald Trump",
+      "status": "positive",
+      "testDate": "2020-10-01"
+    },
+    {
+      "name": "Vice President Michael Pence",
+      "status": "negative",
+      "testDate": "2020-10-03"
+    },
+    {
+      "name": "Former VP Joe Biden",
+      "status": "negative",
+      "testDate": "2020-10-02"
+    },
+    {
+      "name": "Sen. Kamala Harris",
+      "status": "negative",
+      "testDate": "2020-10-02"
+    },
+    {
+      "name": "Hope Hicks",
+      "status": "positive",
+      "testDate": "2020-09-30"
+    },
+    {
+      "name": "Sen. Mike Lee",
+      "status": "positive",
+      "testDate": "2020-10-01"
+    },
+    {
+      "name": "Sen. Thom Tillis",
+      "status": "positive",
+      "testDate": "2020-10-02"
+    },
+    {
+      "name": "Sen. Ron Johnson",
+      "status": "positive",
+      "testDate": "2020-10-02"
+    },
+    {
+      "name": "RNC Chair Ronna McDaniel",
+      "status": "positive",
+      "testDate": "2020-10-02"
+    },
+    {
+      "name": "Bill Stepien",
+      "status": "positive",
+      "testDate": "2020-10-02"
+    },
+    {
+      "name": "Kellyanne Conway",
+      "status": "positive",
+      "testDate": "2020-10-02"
+    },
+    {
+      "name": "Gov. Chris Christie",
+      "status": "positive",
+      "testDate": "2020-10-03"
+    }
+  ]
