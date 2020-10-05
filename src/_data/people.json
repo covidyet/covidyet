@@ -80,6 +80,11 @@
       "testDate": "2020-10-03"
     },
     {
+      "name": "Chad Gilmartin",
+      "status": "positive",
+      "testDate": "2020-10-04"
+    },
+    {
       "name": "Jason Miller",
       "status": "negative",
       "testDate": "UNK"
