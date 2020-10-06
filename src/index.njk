@@ -3,7 +3,7 @@ layout: base.njk
 title: Make COVID Great Again
 ---
 
-<main id="main" class="px-4 max-w-md mx-auto">
+<main id="main" class="px-4 max-w-3xl mx-auto">
 <div class="text-center">
     <img src="/static/corona.png" alt="Corona icon" class="w-12 mx-auto my-4">
     <h1 class="font-bold text-3xl mb-2">
@@ -14,28 +14,51 @@ title: Make COVID Great Again
     </p>
 </div>
 <div>
-    <ul class="my-4">
-        {% for item in people %}
-            <li class="my-2">
-            <div class="flex">
-                <div class="w-1/5 h-12 text-center">
-                    {% if item.status == "positive" %}
-                      YES
-                    {% else %}
-                      NO
-                    {% endif %}
-                </div>
-                <div class="w-4/5 h-12">
-                    {{ item.name }}
-                </div>
-            </div>
-            </li>
-        {% endfor %}
-    </ul>
+    <div class="flex my-4">
+        <div class="w-1/2 px-2">
+            <h2 class="text-center text-4xl text-pink-500">Yes</h2>
+            <ul class="my-4">
+                {% for item in people %}
+                  {% if item.status == 'positive' %}
+                    <li class="my-6 text-lg">
+                        {{ item.name }}
+                        <br/>
+                        {% if item.testDate %}
+                            <span class="text-sm italic font-light">Positive test {{ item.testDate }}</span>
+                        {% else %}
+                            <span class="text-sm italic font-light">Unknown test date</span>
+                        {% endif %}
+                    </li>
+                  {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="w-1/2 px-2">
+            <h2 class="text-center text-4xl text-teal-400">No</h2>
+            <ul class="my-4">
+                {% for item in people %}
+                  {% if item.status != 'positive' %}
+                    <li class="my-6 text-lg">
+                        {{ item.name }} 
+                        <br/>
+                        {% if item.status == 'negative' %}
+                            <span class="text-sm italic font-light">Negative test {{ item.testDate }}</span>
+                        {% else %}
+                            <span class="text-sm italic font-light">Unknown test status</span>
+                        {% endif %}
+                    </li>
+                  {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+   
 
-    <footer class="text-sm text-gray-500 text-center">
+    <footer class="text-sm text-gray-500 text-center my-4">
        <p class="flex items-center justify-center">
+        <p><a href="https://github.com/covidyet/covidyet">Contribute or correct data</a></p>
         <p>Wear a mask.</p>
+       </p>
     </footer>
 </div>
 </main>
