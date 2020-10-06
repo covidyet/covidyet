@@ -86,17 +86,17 @@
     },
     {
       "name": "Jason Miller",
-      "status": "negative",
+      "status": "UNK",
       "testDate": "UNK"
     },
     {
       "name": "Rudy Giuliani",
-      "status": "negative",
+      "status": "UNK",
       "testDate": "UNK"
     },
     {
       "name": "Stephen Miller",
-      "status": "negative",
+      "status": "UNK",
       "testDate": "UNK"
     },
     {
@@ -108,5 +108,10 @@
       "name": "Kayleigh McEnany",
       "status": "positive",
       "testDate": "2020-10-05"
+    },
+    {
+      "name": "Nuclear Football Military Aide 1",
+      "status": "positive",
+      "testDate": "2020-10-06"
     }
   ]
