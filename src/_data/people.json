@@ -96,8 +96,8 @@
     },
     {
       "name": "Stephen Miller",
-      "status": "UNK",
-      "testDate": "UNK"
+      "status": "positive",
+      "testDate": "2020-10-06"
     },
     {
       "name": "Nick Luna",
@@ -113,5 +113,10 @@
       "name": "Nuclear Football Military Aide 1",
       "status": "positive",
       "testDate": "2020-10-06"
+    },
+    {
+      "name": "+100 more White House staff",
+      "status": "positive",
+      "testDate": "UNK"
     }
   ]
